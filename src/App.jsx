@@ -62,7 +62,7 @@ export default function App() {
               name="todo"
               value={newTodo}
               onChange={(e) => setNewTodo(e.target.value)}
-              className="w-24 md:w-48 lg:w-84 sm:w-32 xl:w-100 rounded-md ring-4 ring-amber-300 bg-stone-300 font-bold p-2 text-amber-900"
+              className="lg:w-84 xl:w-100 rounded-md ring-4 ring-amber-300 bg-stone-300 font-bold p-2 text-amber-900"
             />
             <button
               type="submit"
